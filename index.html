@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!--Navigation bar-->
+    <nav class="navbar">
+      <ul>
+        <li><a href="#home" data-slide="0">Home</a></li>
+        <li><a href="#about" data-slide="1">About</a></li>
+        <li><a href="#contact" data-slide="2">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Carousel wrapper -->
+    <div class="carousel">
+      <div class="slides">
+        <!-- Home slide -->
+        <section class="landing-page-container slide" id="home">
+          <article class="profile-intro">
+            <h1 class="hero-title">Hello, I'm Leonardo.</h1>
+            <h2 class="hero-sub-title">
+              I'm a Software Developer based in Espoo, Finland.
+            </h2>
+            <p class="hero-description">
+              I like to write <b class="underline">clean</b>,
+              <b class="underline">easy-to-read code</b> and build websites that
+              are both <b class="underline">visually appealing</b> and
+              <b class="underline">function smoothly</b> behind the scenes.
+            </p>
+            <article class="social-icons-container">
+              <ul class="social-links">
+                <li>
+                  <a href="https://www.linkedin.com">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com">
+                    <i class="fa-brands fa-square-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.github.com">
+                    <i class="fa-brands fa-square-github"></i>
+                  </a>
+                </li>
+              </ul>
+            </article>
+          </article>
+          <article class="profile-pic-container">
+            <img
+              class="profile-picture"
+              src="./assets/pug.jpg"
+              alt="Photo of Leonardo, web developer"
+            />
+          </article>
+        </section>
+
+        <!-- About slide -->
+        <section class="about-page-container slide" id="about">
+          <article class="about-intro">
+            <h2 class="section-title">About Me</h2>
+            <p class="section-description">
+              I started studying
+              <b class="underline">software development</b> at
+              <b class="underline">Business College Helsinki</b> and have been
+              <b class="underline">coding</b> almost daily since then. Each step
+              has helped me better understand how
+              <b class="underline">websites</b> are structured and connected
+              behind the scenes.
+            </p>
+            <p class="section-description">
+              I enjoy learning through <b class="underline">practice</b> and
+              solving small <b class="underline">challenges</b>. Even small
+              breakthroughs feel rewarding and keep me motivated to grow into a
+              <b class="underline">confident developer</b> who creates
+              <b class="underline">websites</b> that both look good and
+              <b class="underline">work well</b>.
+            </p>
+          </article>
+
+          <article class="skills-intro">
+            <h2 class="section-title">Skills</h2>
+            <p class="section-description">
+              My background includes studying a wide range of web technologies
+              across both frontend and backend development. I've worked with
+              tools and languages like
+              <b class="underline">HTML</b>, <b class="underline">CSS</b>,
+              <b class="underline">JavaScript</b>,
+              <b class="underline">React</b>, <b class="underline">Node.js</b>,
+              <b class="underline">C#</b>, and
+              <b class="underline">.NET Core</b> to build functional and
+              responsive user interfaces and APIs.
+            </p>
+            <p class="section-description">
+              I've also spent time learning how data is managed, using
+              relational and non-relational databases such as
+              <b class="underline">PostgreSQL</b> and
+              <b class="underline">MongoDB</b>. Alongside these, I regularly use
+              <b class="underline">Visual Studio Code</b>,
+              <b class="underline">GitHub</b>, and
+              <b class="underline">browser developer tools</b> to streamline
+              development, collaborate effectively, and debug projects
+              efficiently.
+            </p>
+          </article>
+        </section>
+
+        <!-- Contact slide -->
+        <section class="contact-page-container slide" id="contact">
+          <h2 class="section-title">Let's Connect!</h2>
+
+          <article class="contact-image">
+            <img src="./assets/Programming.svg" alt="Contact illustration" />
+          </article>
+
+          <article class="contact-text">
+            <p class="section-description">
+              Feel free to reach out for
+              <b class="underline">collaborations</b>,
+              <b class="underline">inquiries</b>, or potential
+              <b class="underline">job opportunities</b>. I'm always open to
+              connecting with <b class="underline">recruiters</b> and
+              <b class="underline">professionals</b> for exciting
+              <b class="underline">projects</b> or career advancements.
+            </p>
+          </article>
+
+          <article class="social-icons-container">
+            <ul class="social-links">
+              <li>
+                <a href="https://www.linkedin.com">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com">
+                  <i class="fa-brands fa-square-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.github.com">
+                  <i class="fa-brands fa-square-github"></i>
+                </a>
+              </li>
+            </ul>
+          </article>
+        </section>
+      </div>
+    </div>
+
+    <!-- Dots navigation -->
+    <div class="dots">
+      <span class="dot active" data-index="0"></span>
+      <span class="dot" data-index="1"></span>
+      <span class="dot" data-index="2"></span>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
