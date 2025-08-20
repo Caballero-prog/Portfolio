@@ -389,3 +389,38 @@ b.underline:hover::after {
 .navbar li a.active {
   color: var(--highlight-color);
 }
+
+/* Tablet / small laptop breakpoint */
+@media (max-width: 1024px) {
+  /* Home Section */
+  .hero-title { font-size: 2.8rem; }
+  .hero-sub-title { font-size: 1.8rem; }
+  .hero-description { font-size: 1.2rem; }
+
+  /* About / Skills Section */
+  .about-intro .section-title,
+  .skills-intro .section-title { font-size: 2.2rem; }
+  .about-intro .section-description,
+  .skills-intro .section-description { font-size: 1.2rem; }
+  .about-intro,
+  .skills-intro { padding: 1.4rem; }
+
+  /* Contact Section */
+  .contact-page-container .section-title { font-size: 2.2rem; }
+  .contact-text p { font-size: 1.2rem; }
+
+  /* Center social icons under Home text */
+  .profile-intro .social-icons-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  .profile-intro {
+    padding: 0 2rem;
+  }
+  .profile-intro .social-icons-container ul{
+    margin-top: 0rem;
+  }
+}
+
