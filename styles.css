@@ -187,8 +187,8 @@ b.underline:hover::after {
   align-items: center;
   overflow: hidden;
   height: 100%;
-  padding-right: 2rem;
-  max-width: 500px;
+  padding-right: 4rem;
+  max-width: 600px;
 }
 
 .profile-picture {
