@@ -422,15 +422,27 @@ b.underline:hover::after {
   .section-title {
     font-size: 2rem;
   }
+
   .section-description,
   .contact-text p {
     font-size: 1.2rem;
   }
+
+  /* Social icons */
   .contact-page-container .social-icons-container {
-    flex-wrap: wrap;
-    gap: 1rem;
+    display: flex;        /* ensure flex display */
+    flex-wrap: wrap;      /* wrap if needed */
+    justify-content: center;
+    gap: 1rem;            /* adjust horizontal spacing */
+    margin-top: 1rem;     /* reduce space above icons */
+  }
+
+  /* Reduce vertical spacing between title and picture */
+  .contact-page-container {
+    gap: 1rem;            /* instead of 2rem, controls vertical spacing */
   }
 }
+
 
 /* ================================
    Tablet / Small Laptop: 1024px and below
