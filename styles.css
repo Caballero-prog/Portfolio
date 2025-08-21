@@ -304,17 +304,22 @@ b.underline:hover::after {
 .contact-page-container {
   max-width: 1440px;
   width: 100%;
-  height: 78svh;
+  height: auto;
+  min-height: 78svh;
+  padding: 2rem 1rem;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   gap: 2rem;
   text-align: center;
   background: #fff;
 }
-
+.contact-page-container .social-icons-container ul {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
 .contact-page-container img {
   max-width: 500px;
   width: 100%;
