@@ -421,27 +421,33 @@ b.underline:hover::after {
 @media (max-width: 1280px) {
   .section-title {
     font-size: 2rem;
+    margin-bottom: 0.8rem; /* reduce space below "Let's Connect" */
   }
 
-  .section-description,
   .contact-text p {
     font-size: 1.2rem;
+    margin: 0.5rem auto 1rem; /* reduce top margin to bring it closer to title */
+    max-width: 90%;
   }
 
-  /* Social icons */
-  .contact-page-container .social-icons-container {
-    display: flex;        /* ensure flex display */
-    flex-wrap: wrap;      /* wrap if needed */
-    justify-content: center;
-    gap: 1rem;            /* adjust horizontal spacing */
-    margin-top: 1rem;     /* reduce space above icons */
-  }
-
-  /* Reduce vertical spacing between title and picture */
   .contact-page-container {
-    gap: 1rem;            /* instead of 2rem, controls vertical spacing */
+    gap: 1rem; /* smaller gap between elements (title, text, picture, icons) */
+  }
+
+  .contact-page-container img {
+    max-width: 450px; /* optional: make image slightly smaller to fit text */
+    margin: 0 auto;
+  }
+
+  .contact-page-container .social-icons-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 0.5rem; /* less space above icons */
   }
 }
+
 
 
 /* ================================
