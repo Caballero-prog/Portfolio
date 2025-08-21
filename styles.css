@@ -719,5 +719,8 @@ b.underline:hover::after {
 .about-page-container,
 .contact-page-container,
 .carousel {
-  background-color: #fff; /* explicit white */
+  background-color: #fff;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
 }
